@@ -13,6 +13,7 @@
 		B786EA84296EEF1500A0D6A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B786EA82296EEF1500A0D6A4 /* Main.storyboard */; };
 		B786EA86296EEF1700A0D6A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B786EA85296EEF1700A0D6A4 /* Assets.xcassets */; };
 		B786EA89296EEF1700A0D6A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B786EA87296EEF1700A0D6A4 /* LaunchScreen.storyboard */; };
+		B786EA91296EF1CA00A0D6A4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B786EA90296EF1CA00A0D6A4 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B786EA85296EEF1700A0D6A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B786EA88296EEF1700A0D6A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B786EA8A296EEF1700A0D6A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B786EA90296EF1CA00A0D6A4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				B786EA7E296EEF1500A0D6A4 /* SceneDelegate.swift */,
 				B786EA80296EEF1500A0D6A4 /* ViewController.swift */,
 				B786EA82296EEF1500A0D6A4 /* Main.storyboard */,
+				B786EA90296EF1CA00A0D6A4 /* SecondViewController.swift */,
 				B786EA85296EEF1700A0D6A4 /* Assets.xcassets */,
 				B786EA87296EEF1700A0D6A4 /* LaunchScreen.storyboard */,
 				B786EA8A296EEF1700A0D6A4 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B786EA91296EF1CA00A0D6A4 /* SecondViewController.swift in Sources */,
 				B786EA81296EEF1500A0D6A4 /* ViewController.swift in Sources */,
 				B786EA7D296EEF1500A0D6A4 /* AppDelegate.swift in Sources */,
 				B786EA7F296EEF1500A0D6A4 /* SceneDelegate.swift in Sources */,
@@ -302,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "vloss.com.br.Ciclo-de-Vida";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +337,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "vloss.com.br.Ciclo-de-Vida";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
